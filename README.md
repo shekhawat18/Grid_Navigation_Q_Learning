@@ -36,11 +36,6 @@ Develop an agent that learns to navigate a grid from a starting point to a desti
 
 Validation tests in Cell 5 check legal/invalid moves, obstacle collision, goal reward and termination, the Q-update (non-terminal and terminal), obstacle-free route, and an unreachable-goal map where the agent never succeeds and episodes still terminate.
 
-## How to run in Google Colab
-1. Open https://colab.research.google.com and choose **File > Upload notebook** (or open it from GitHub).
-2. Select `grid_navigation_q_learning.ipynb`.
-3. Click **Runtime > Run all**. It needs only CPU and takes about 10 seconds. No file paths need changing.
-
 ## Limitations
 - Tabular Q-learning does not scale to large or continuous state spaces.
 - The policy is tied to one fixed map; a new layout requires retraining.
